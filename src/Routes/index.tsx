@@ -1,10 +1,15 @@
 import React from 'react';
-
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Home from '../Pages/Home';
 
 const Index: React.FC = props => {
       return (
         <>
-            <p>Routes</p>
+            <BrowserRouter>
+              <Switch>
+                <Route exact path="/" component={Home} />
+              </Switch>
+            </BrowserRouter>
         </>
       );
     }
