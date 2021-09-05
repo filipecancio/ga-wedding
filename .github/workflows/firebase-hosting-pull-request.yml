@@ -15,4 +15,4 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CANCIO }}'
-          projectId: cancio
+          projectId: g-a-wedding

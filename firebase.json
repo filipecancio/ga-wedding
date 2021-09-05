@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "ag-wedding",
     "public": "build",
     "ignore": [
       "firebase.json",
