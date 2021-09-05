@@ -8,14 +8,6 @@ const font = {
   great:'Great Vibes'
 }
 
-const weight = {
-  light: 300,
-  regular: 400,
-  medium: 500,
-  semibold: 600,
-  bold: 700
-};
-
 const _noto = css`
   font-family: ${font.noto}, serif;
   word-break: break-word;
