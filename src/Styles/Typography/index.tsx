@@ -2,7 +2,7 @@ import { css } from 'styled-components';
 import {mobile} from '../Breakpoint';
 
 const font = {
-  noto:'Noto Serif',
+  noto:'Noto Serif JP',
   allura:'Allura',
   amatic:'Amatic SC',
   great:'Great Vibes'
