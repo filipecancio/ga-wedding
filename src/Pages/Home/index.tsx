@@ -1,10 +1,11 @@
 import React from 'react';
+import HeroBanner from '../../Components/Molecules/HeroBanner';
 
 
 const Index: React.FC = props => {
       return (
         <>
-            <p>Home</p>
+            <HeroBanner/>
         </>
       );
     }
